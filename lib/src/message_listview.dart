@@ -172,6 +172,8 @@ class _MessageListViewState extends State<MessageListView> {
                     } else if (i == widget.messages.length - 1 &&
                         widget.inverted) {
                       showDate = true;
+                    } else if (i == 0) {
+                      showDate = true;
                     } else {
                       showDate = false;
                     }
